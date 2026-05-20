@@ -1,0 +1,14 @@
+# Data manipulation and analysis
+pandas
+numpy
+# Visualization
+matplotlib
+seaborn
+# Machine Learning & Forecasting
+scikit-learn
+cmdstanpy==1.0.8
+prophet
+# Animation
+manim
+# Jupyter Notebook environment
+jupyter
