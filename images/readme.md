@@ -2,7 +2,7 @@
 
 This directory contains the main visualizations generated during the equine population analysis. These plots are used to communicate the historical context, technical findings, and predictive outcomes of the project.
 
-## 📊 Main Visualizations
+## Main Visualizations
 
 ### 1. historical_context.png
 *   **Description:** A comprehensive view of the horse population trend from 1921 to 2025.
@@ -24,7 +24,7 @@ This directory contains the main visualizations generated during the equine popu
 
 ---
 
-## 📈 Additional Visualizations in the Notebook
+## Additional Visualizations in the Notebook
 While this directory highlights the final executive visualizations, the main Jupyter Notebook (`01_population_analysis.ipynb`) contains a comprehensive suite of working charts used throughout the analytical process. These include:
 
 *   **Interpolation Diagnostics:** Visual comparisons of linear vs. polynomial interpolations, alongside rolling window cross-validation boxplots and residual histograms used to select the optimal model.
@@ -33,7 +33,7 @@ While this directory highlights the final executive visualizations, the main Jup
 
 ---
 
-## 🛠️ Technical Details
+## Technical Details
 *   **Generation:** All plots were programmatically generated within the `01_population_analysis.ipynb` notebook.
 *   **Libraries:** `Matplotlib` for core plotting and `Seaborn` for statistical styling.
 

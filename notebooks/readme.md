@@ -2,7 +2,7 @@
 
 This directory contains the core analytical logic and the visual storytelling engine of the project. The workflow is split into two sequential stages, designed and executed within the **Google Colab** environment to leverage cloud-based rendering resources.
 
-## 📓 01_population_analysis.ipynb
+## 01_population_analysis.ipynb
 **Purpose:** Data cleaning, historical reconstruction, and time-series forecasting.
 
 This notebook serves as the project's analytical backbone. It handles the transition from raw, fragmented records to a structured, feature-engineered dataset.
@@ -14,7 +14,7 @@ This notebook serves as the project's analytical backbone. It handles the transi
     *   **Forecasting:** Deployment of Meta's Prophet algorithm tuned for modern-era growth (2003–2050), including 80% uncertainty intervals.
     *   **Export:** Generation of `clean_data.json` used by the subsequent animation stage.
 
-## 📓 02_story.ipynb
+## 02_story.ipynb
 **Purpose:** Programmatic video generation using the Manim library.
 
 This notebook translates the analytical findings into a cinematic data narrative. It uses the Python library **Manim (Mathematical Animation Engine)** to render the evolution of the horse population.
@@ -27,7 +27,7 @@ This notebook translates the analytical findings into a cinematic data narrative
 
 ---
 
-## 💻 Environment & Setup
+## Environment & Setup
 
 Both notebooks were developed and tested in **Google Colab**. 
 

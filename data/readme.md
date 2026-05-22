@@ -2,14 +2,14 @@
 
 This directory contains the datasets used for the analysis of horse population evolution in the Czech Republic. The project works with historical time series ranging from 1921 to 2025, with forecasted values extending to 2050.
 
-## 📂 Dataset Sources
+## Dataset Sources
 The data is compiled from two primary official sources:
 1.  **Czech Statistical Office (CSO / ČSÚ):** Historical census data (1921–2001).
 2.  **Central Register of Horses (ÚEK):** Comprehensive mandatory registration data (2002–2025).
 
 ---
 
-## 📄 File Descriptions
+## File Descriptions
 
 ### 1. raw.csv
 This is the original dataset as retrieved from official records. 
@@ -24,7 +24,7 @@ The final, feature-engineered dataset exported from the analytical pipeline. It 
 
 ---
 
-## 📊 Data Dictionary (clean_data.json)
+## Data Dictionary (clean_data.json)
 
 | Feature | Data Type | Description |
 | :--- | :--- | :--- |
@@ -41,7 +41,7 @@ The final, feature-engineered dataset exported from the analytical pipeline. It 
 
 ---
 
-## 🛠️ Data Processing & Methodology Note
+## Data Processing & Methodology Note
 
 A critical structural break occurs between **2001 and 2002**. 
 *   **Pre-2002:** Data represents CSO estimates and agricultural censuses.

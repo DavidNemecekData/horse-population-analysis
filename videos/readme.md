@@ -2,7 +2,7 @@
 
 This directory contains the final rendered animations that narrate the story of the horse population evolution in the Czech Republic. The narrative is delivered through a "Text-on-Screen" storytelling approach, combined with dynamic mathematical visualizations.
 
-## 🎬 Video Versions
+## Video Versions
 
 The project includes two versions of the final animation to suit different presentation needs:
 
@@ -14,7 +14,7 @@ The project includes two versions of the final animation to suit different prese
 
 ---
 
-## 🛠️ Production Pipeline
+## Production Pipeline
 
 The creation of these videos involved a multi-stage technical workflow:
 
@@ -24,5 +24,5 @@ The creation of these videos involved a multi-stage technical workflow:
 
 ---
 
-## 📺 How to View
+## How to View
 While these raw files are available here, for the best experience, it is recommended to view the project on **[YouTube](https://youtu.be/qD14eS9jWHM)**.

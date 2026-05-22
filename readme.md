@@ -6,20 +6,20 @@
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)   
 ![Manim](https://img.shields.io/badge/Manim-000000?style=for-the-badge&logo=python&logoColor=white)
 
-## 📌 Quick Links & Visual Storytelling
+## Quick Links & Visual Storytelling
 Access the core outputs of this project:
-* 🎥 **[Animated Data Story (YouTube)](https://youtu.be/qD14eS9jWHM)** – A visual narrative of population shifts (1921–2025).
-* 📈 **[Population Analysis Notebook](./notebooks/01_population_analysis.ipynb)** – Data cleaning, interpolation testing, and forecasting.
-* 🎬 **[Manim Animation Script](./notebooks/02_story.ipynb)** – Source code for the mathematical animation.
+* **[Animated Data Story (YouTube)](https://youtu.be/qD14eS9jWHM)** – A visual narrative of population shifts (1921–2025).
+* **[Population Analysis Notebook](./notebooks/01_population_analysis.ipynb)** – Data cleaning, interpolation testing, and forecasting.
+* **[Manim Animation Script](./notebooks/02_story.ipynb)** – Source code for the mathematical animation.
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 This project analyzes the evolution of the horse population in the Czech Republic over the last century (1921–2025) and projects its development up to 2050. The analysis navigates complex historical data gaps and a fundamental shift in the horse's role within society—from an essential agricultural engine to a sports and companion animal.
 
 **The Data Challenge:** The historical time series was interrupted by significant data gaps (15%) during the World War periods and a major **structural break in 2002**. This break was caused by a change in census methodology (transitioning from CSO estimates to the Central Register of Horses/ÚEK).
 
-### 🎯 Core Objectives:
+### Core Objectives:
 1. **Analyze Population Dynamics:** Identify and quantify major shifts in horse counts.
 2. **Reconstruct Missing History:** Deploy and test mathematical interpolation to fill gaps in the 1921–1945 period.
 3. **Analyze Structural Breaks:** Isolate administrative methodology changes from organic population growth.
@@ -28,7 +28,7 @@ This project analyzes the evolution of the horse population in the Czech Republi
 
 ---
 
-## 📸 Final Output Preview
+## Final Output Preview
 Below are the core visualizations representing the project's key analytical findings.
 
 ### 1. Historical Context & Milestones
@@ -45,7 +45,7 @@ The final projection combining the reconstructed historical data with the Prophe
 
 ---
 
-## 🏗️ Technical Execution
+## Technical Execution
 
 ### 1. Data Cleaning & Interpolation Strategy
 Missing data was reconstructed by testing multiple models using **Rolling Window Cross-Validation** (5-year blocks). 
@@ -69,7 +69,7 @@ The final storytelling was executed using the **Manim (Mathematical Animation En
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 * **[data/](./data/)**: Raw historical data and the final processed JSON dataset.
 * **[notebooks/](./notebooks/)**: Data science workflow and Manim animation scripts.
 * **[images/](./images/)**: Key visualizations used in this documentation.
@@ -78,7 +78,7 @@ The final storytelling was executed using the **Manim (Mathematical Animation En
 
 ---
 
-## 💻 Environment & Reproducibility
+## Environment & Reproducibility
 * **Runtime:** The analysis and Manim animations were developed and executed in **Google Colab**, utilizing its cloud resources for rendering.
 * **Dependencies:** Key libraries include `prophet`, `manim`, `pandas`, and `scikit-learn`. 
 * **Setup:** All required packages are listed in [requirements.txt](./requirements.txt).
